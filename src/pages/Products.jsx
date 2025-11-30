@@ -8,13 +8,13 @@ export default function Products() {
   useEffect(() => {
     console.log("Fetching products...");
 
-    fetch("https://handlooms-api.onrender.com/products")   // ✅ UPDATE THIS
+    fetch("https://handlooms-api.onrender.com/products")
       .then((res) => res.json())
       .then((data) => {
-        console.log("Received:", data);  // ✅ now data is valid
+        console.log("Received:", data);
         setProducts(data);
       })
-      .catch((err) => console.error("API Error:", err));  // ✅ correct catch
+      .catch((err) => console.error("API Error:", err));
   }, []);
 
   return (
