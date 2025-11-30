@@ -1,0 +1,115 @@
+{
+  "products": [
+  {
+    "id": 1,
+    "title": "Kanchipuram Silk Saree",
+    "price": "₹4500",
+    "category": "saree",
+    "img": "/assets/images/saree1.jpg",
+    "description": "A premium handwoven silk saree known for its durability and richness.",
+    "history": "Kanchipuram sarees are woven by artisans using pure mulberry silk and zari.",
+    "region": "Tamil Nadu"
+  },
+
+  {
+    "id": 2,
+    "title": "Ikat Dupatta",
+    "price": "₹1200",
+    "category": "dupatta",
+    "img": "/assets/images/dupatta.jpeg",
+    "description": "Beautiful hand-dyed Ikat cotton dupatta.",
+    "history": "Ikat uses a resist-dyeing technique on warp and weft yarns.",
+    "region": "Telangana"
+  },
+
+  {
+    "id": 3,
+    "title": "Banarasi Silk Saree",
+    "price": "₹6500",
+    "category": "saree",
+    "img": "/assets/images/banarasi.jpg",
+    "description": "Traditional Banarasi saree with intricate gold zari work.",
+    "history": "Woven in Varanasi, these sarees were once made exclusively for royalty.",
+    "region": "Uttar Pradesh"
+  },
+
+  {
+    "id": 4,
+    "title": "Jamdani Saree",
+    "price": "₹5200",
+    "category": "saree",
+    "img": "/assets/images/jamdani.jpg",
+    "description": "Soft cotton Jamdani saree with geometric motifs.",
+    "history": "Jamdani weaving is an ancient Bengali art form dating back to the Mughal era.",
+    "region": "West Bengal"
+  },
+
+  {
+    "id": 5,
+    "title": "Muga Silk Fabric",
+    "price": "₹2500",
+    "category": "fabric",
+    "img": "/assets/images/muga.jpg",
+    "description": "Authentic Assam Muga silk, known for its natural golden luster.",
+    "history": "Muga silk has been produced by Assamese weavers for centuries.",
+    "region": "Assam"
+  },
+
+  {
+    "id": 6,
+    "title": "Kalamkari Dupatta",
+    "price": "₹1500",
+    "category": "dupatta",
+    "img": "/assets/images/kalamkari.JPG",
+    "description": "Hand-painted Kalamkari cotton dupatta.",
+    "history": "Kalamkari uses natural dyes and freehand painting techniques.",
+    "region": "Andhra Pradesh"
+  },
+
+  {
+    "id": 7,
+    "title": "Bhagalpuri Tussar Silk",
+    "price": "₹3800",
+    "category": "saree",
+    "img": "/assets/images/kotadoria.jpg",
+    "description": "Lightweight Tussar silk known for its textured feel.",
+    "history": "Bhagalpur is known as the ‘Silk City’ for its generations of weavers.",
+    "region": "Bihar"
+  },
+
+  {
+    "id": 8,
+    "title": "Ikkat Saree",
+    "price": "₹4200",
+    "category": "saree",
+    "img": "/assets/images/ikat.webp",
+    "description": "Double Ikat saree featuring bold geometric patterns.",
+    "history": "Double Ikat weaving requires months of preparation and precision.",
+    "region": "Odisha"
+  },
+
+  {
+    "id": 9,
+    "title": "Kota Doria Dupatta",
+    "price": "₹950",
+    "category": "dupatta",
+    "img": "/assets/images/kotadoria.jpg",
+    "description": "Light, airy check-pattern dupatta woven on pit looms.",
+    "history": "Kota Doria originates from Rajasthan and is known for its durability.",
+    "region": "Rajasthan"
+  },
+
+  {
+    "id": 10,
+    "title": "Handloom Cotton Saree",
+    "price": "₹1800",
+    "category": "saree",
+    "img": "/assets/images/hero.jpg",
+    "description": "Soft breathable handloom cotton saree for everyday wear.",
+    "history": "This weaving tradition has been passed down through generations.",
+    "region": "Madhya Pradesh"
+  }
+],
+  "pendingProducts": [],
+  "users": []
+}

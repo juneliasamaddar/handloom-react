@@ -1,0 +1,21 @@
+.product-card{
+  background:#fff;
+  color:#222;
+  border-radius:12px;
+  overflow:hidden;
+  max-width:340px;
+  margin:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.12);
+}
+.img-wrap img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  display:block;
+}
+.meta{padding:16px}
+.meta h4{margin:0 0 8px}
+.meta .price{color:#b85c00; margin-bottom:12px}
+.meta button{
+  background:#f97316;color:white;border:none;padding:8px 12px;border-radius:8px;
+}

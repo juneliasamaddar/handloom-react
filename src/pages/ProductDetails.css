@@ -1,0 +1,48 @@
+.details-page {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  background: #111;
+  color: white;
+}
+
+.details-img {
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.details-info {
+  flex: 1;
+}
+
+.details-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffb347;
+  margin-bottom: 10px;
+}
+
+.details-desc,
+.details-history,
+.details-region {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.buy-btn {
+  background: orange;
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: #ffca6a;
+}
