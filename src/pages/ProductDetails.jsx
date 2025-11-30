@@ -9,7 +9,8 @@ export default function ProductDetails() {
   useEffect(() => {
     fetch(`https://handlooms-api.onrender.com/products/${id}`)
       .then((res) => res.json())
-      .then((data) => setProduct(data));
+      .then((data) => setProduct(data))
+      .catch((err) => console.error("Error fetching product:", err));
   }, [id]);
 
   function addToCart() {
@@ -19,9 +20,9 @@ export default function ProductDetails() {
     const existing = cart.find((item) => item.id === product.id);
 
     if (existing) {
-      existing.quantity += 1; // FIX → matches Cart.jsx
+      existing.quantity += 1;
     } else {
-      cart.push({ ...product, quantity: 1 }); // FIX → use quantity
+      cart.push({ ...product, quantity: 1 });
     }
 
     localStorage.setItem("cart", JSON.stringify(cart));
