@@ -7,7 +7,7 @@ export default function ProductDetails() {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${id}`)
+    fetch(`https://handlooms-api.onrender.com/products/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);
