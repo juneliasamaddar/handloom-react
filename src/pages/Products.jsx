@@ -6,12 +6,15 @@ export default function Products() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    console.log("Fetching products...");
+
+    fetch("https://handlooms-api.onrender.com/products")   // ✅ UPDATE THIS
       .then((res) => res.json())
       .then((data) => {
+        console.log("Received:", data);  // ✅ now data is valid
         setProducts(data);
       })
-      .catch((err) => console.error("API Error:", err));
+      .catch((err) => console.error("API Error:", err));  // ✅ correct catch
   }, []);
 
   return (
